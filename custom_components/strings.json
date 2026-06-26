@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "小度智能家居 - 登录",
+        "description": "输入 BDUSS Cookie。\n\n获取方法：\n1. 浏览器打开 https://xiaodu.baidu.com/saiya/smarthome/index.html\n2. F12 → 切换手机模式 → 登录百度账号\n3. Application → Cookies → xiaodu.baidu.com → 复制 BDUSS 值",
+        "data": {
+          "bduss": "BDUSS Cookie"
+        }
+      },
+      "home": {
+        "title": "选择家庭",
+        "description": "选择要接入的小度家庭",
+        "data": {
+          "house_id": "家庭"
+        }
+      },
+      "device": {
+        "title": "选择设备",
+        "description": "选择要接入 Home Assistant 的设备（可多选）",
+        "data": {
+          "device_ids": "设备"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "BDUSS 不能为空",
+      "cannot_connect": "连接失败，BDUSS 可能已过期",
+      "no_homes": "未找到家庭，请确认账号下有配置的家庭",
+      "no_device_selected": "请至少选择一个设备"
+    },
+    "abort": {
+      "no_devices": "该家庭下没有设备"
+    }
+  }
+}

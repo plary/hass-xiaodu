@@ -1,0 +1,5 @@
+{
+  "name": "小度智能家居 (XiaoDu Smart Home)",
+  "render_readme": true,
+  "homeassistant": "2024.1.0"
+}
