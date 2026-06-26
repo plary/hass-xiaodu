@@ -78,7 +78,7 @@ cp -r custom_components/xiaodu <你的HA配置目录>/custom_components/
 6. 左侧 Cookies → `xiaodu.baidu.com`
 7. 找到 **BDUSS**，复制它的值
 
-![Cookie获取示意](https://xiaodu.baidu.com/saiya/smarthome/index.html)
+> **提示：** 切换手机模式后刷新页面，确保 Cookie 是手机端的（PC 端的可能不完整）
 
 #### 配置流程
 
